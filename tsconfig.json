@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "removeComments": false,
     "preserveConstEnums": true,
     "sourceMap": true,
@@ -12,7 +13,6 @@
     "outDir": "lib/",
     "types": [
       "node",
-      "es6-promise",
       "jasmine",
       "chai"
     ]

@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@angular/core@^2.4.8":
+  version "2.4.8"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-2.4.8.tgz#bf1a4fc324827516e6c3222047a9b2cbdaee6976"
+
 "@protobufjs/aspromise@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.1.tgz#22526b2959bbc8dcc531dfcf569a9e2a1eeb3e1f"
@@ -77,10 +81,6 @@
 "@types/chai@^3.4.0":
   version "3.4.35"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.4.35.tgz#e8d65f83492d2944f816fc620741821c28a8c900"
-
-"@types/es6-promise@0.0.32":
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/@types/es6-promise/-/es6-promise-0.0.32.tgz#3bcf44fb1e429f3df76188c8c6d874463ba371fd"
 
 "@types/jasmine@^2.5.36":
   version "2.5.43"
@@ -1694,6 +1694,10 @@ redent@^1.0.0:
   dependencies:
     indent-string "^2.1.0"
     strip-indent "^1.0.1"
+
+reflect-metadata@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.9.tgz#987238dc87a516895fe457f130435ffbd763a4d4"
 
 regenerator-runtime@^0.10.0:
   version "0.10.3"
