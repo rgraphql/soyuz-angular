@@ -1,0 +1,48 @@
+{
+  "name": "soyuz",
+  "description": "Fast, minimal, streaming GraphQL client.",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "soyuz": "^0.1.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run lint && npm run mocha",
+    "ci": "npm run test && npm run build",
+    "lint": "tslint -c tslint.json --project tsconfig.json --type-check",
+    "mocha": "ts-node node_modules/istanbul/lib/cli.js cover -e .ts  -x \"*.d.ts\" -x \"*.spec.ts\" test/run_tests.js",
+    "mocha-nocover": "ts-node test/run_tests.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.0",
+    "@types/es6-promise": "0.0.32",
+    "@types/jasmine": "^2.5.36",
+    "@types/lodash": "^4.14.50",
+    "@types/long": "^3.0.31",
+    "@types/node": "^7.0.0",
+    "cz-conventional-changelog": "^1.2.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "jasmine": "^2.5.0",
+    "jasmine-console-reporter": "^1.2.0",
+    "semantic-release": "^6.3.0",
+    "ts-node": "^2.0.0",
+    "tslint": "^4.0.0",
+    "typescript": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgraphql/soyuz-angular.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "branch": "release"
+  }
+}
