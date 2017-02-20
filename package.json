@@ -20,6 +20,8 @@
   "devDependencies": {
     "@angular/core": "^2.4.8",
     "@types/chai": "^3.4.0",
+    "@types/core-js": "^0.9.35",
+    "@types/graphql": "^0.8.6",
     "@types/jasmine": "^2.5.36",
     "@types/lodash": "^4.14.50",
     "@types/long": "^3.0.31",

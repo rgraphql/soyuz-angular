@@ -14,7 +14,9 @@
     "types": [
       "node",
       "jasmine",
-      "chai"
+      "chai",
+      "core-js",
+      "graphql"
     ]
   },
   "formatCodeOptions": {
