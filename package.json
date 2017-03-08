@@ -5,8 +5,11 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "peerDependencies": {
+    "soyuz": "^0.3.0"
+  },
   "dependencies": {
-    "soyuz": "^0.1.0"
+    "soyuz": "^0.3.0"
   },
   "scripts": {
     "build": "tsc",
