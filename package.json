@@ -6,10 +6,10 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "peerDependencies": {
-    "soyuz": "^0.3.0"
+    "soyuz": "^0.4.0"
   },
   "dependencies": {
-    "soyuz": "^0.3.0"
+    "soyuz": "^0.4.0"
   },
   "scripts": {
     "build": "tsc",
@@ -23,21 +23,20 @@
   "devDependencies": {
     "@angular/core": "^2.4.8",
     "@types/chai": "^3.4.0",
-    "@types/core-js": "^0.9.35",
     "@types/graphql": "^0.8.6",
     "@types/jasmine": "^2.5.36",
     "@types/lodash": "^4.14.50",
     "@types/long": "^3.0.31",
-    "@types/node": "^7.0.0",
+    "@types/node": "^7.0.12",
     "cz-conventional-changelog": "^1.2.0",
     "istanbul": "^1.1.0-alpha.1",
     "jasmine": "^2.5.0",
     "jasmine-console-reporter": "^1.2.0",
-    "reflect-metadata": "^0.1.9",
+    "reflect-metadata": "^0.1.0",
     "semantic-release": "^6.3.0",
-    "ts-node": "^2.0.0",
+    "ts-node": "^3.0.0",
     "tslint": "^4.0.0",
-    "typescript": "^2.1.0"
+    "typescript": "^2.2.2"
   },
   "repository": {
     "type": "git",

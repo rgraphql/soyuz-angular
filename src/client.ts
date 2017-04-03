@@ -8,9 +8,9 @@ import {
 export class Soyuz extends SoyuzClient {}
 
 // Create a soyuz singleton.
-export function createSoyuzSingleton(client: SoyuzClient): Provider {
+export function createSoyuzSingleton(clientFn: () => SoyuzClient): Provider {
   return {
     provide: Soyuz,
-    useValue: client,
+    useValue: clientFn,
   };
 }

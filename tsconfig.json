@@ -15,9 +15,9 @@
       "node",
       "jasmine",
       "chai",
-      "core-js",
       "graphql"
-    ]
+    ],
+    "lib": ["es2017", "dom"]
   },
   "formatCodeOptions": {
     "indentSize": 2,

@@ -7,11 +7,11 @@ export class SoyuzModule {
   /**
    * Defines a map of ApolloClients or a single instance
    */
-  public static withClient(client: SoyuzClient): ModuleWithProviders {
+  public static withClient(clientFn: () => SoyuzClient): ModuleWithProviders {
     return {
       ngModule: SoyuzModule,
       providers: [
-        createSoyuzSingleton(client),
+        createSoyuzSingleton(clientFn),
       ],
     };
   }
