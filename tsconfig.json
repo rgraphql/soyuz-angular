@@ -15,7 +15,8 @@
       "node",
       "jasmine",
       "chai",
-      "graphql"
+      "graphql",
+      "long"
     ],
     "lib": ["es2017", "dom"]
   },
