@@ -11,6 +11,6 @@ export class Soyuz extends SoyuzClient {}
 export function createSoyuzSingleton(clientFn: () => SoyuzClient): Provider {
   return {
     provide: Soyuz,
-    useValue: clientFn,
+    useFactory: clientFn,
   };
 }
